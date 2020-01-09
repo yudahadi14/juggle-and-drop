@@ -12,7 +12,9 @@
     "lint": "eslint --ext .js,.jsx src/",
     "format": "prettier --write '**/*.{js,jsx,css,scss,json,md}'",
     "flow": "flow",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "axios": "^0.18.1",
