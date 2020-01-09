@@ -2,6 +2,7 @@
   "name": "juggle",
   "version": "0.1.0",
   "main": "dist/server.js",
+  "homepage": "https://yudahadi14.github.io/juggle-and-drop/",
   "scripts": {
     "build": "webpack-dashboard -- webpack --watch",
     "build:prod": "webpack -p",
